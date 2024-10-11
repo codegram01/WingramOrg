@@ -1,0 +1,31 @@
+:root {
+	--bs-body-font-size: 1.2rem;
+}
+
+div.col-md-9 h1:first-of-type {
+    text-align: center;
+}
+
+div.col-md-9>p:first-of-type {
+    text-align: center;
+}
+
+div.container>div.row>div.col-md-3 {
+    display: none;
+}
+
+div.container>div.row>div.col-md-9 {
+    margin-left: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.bg-primary {
+	background: black !important;
+}
+
+@media (min-width: 992px) {
+	.container, .container-lg, .container-md, .container-sm {
+	  max-width: 780px;
+	}
+  }

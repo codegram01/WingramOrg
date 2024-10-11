@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en" data-bs-theme="auto">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
-        
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>About Page - WingramOrg</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../css/brands.min.css" rel="stylesheet">
-        <link href="../css/solid.min.css" rel="stylesheet">
-        <link href="../css/v4-font-face.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <meta name="author" content="Wingram.Org">
+        <link rel="canonical" href="https://wingram.org/about/wingram/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+    <title>Wingram Philosophy - Wingram.Org</title>
+    <meta name="title" property="og:title" content="Wingram Philosophy - Wingram.Org" />
+    <meta name="url" property="og:url" content="https://wingram.org/about/wingram/" />
+
+    
+    <meta name="description" property="og:description" content="Before we can answer, we need the question" />
+    
+    
+        <meta name="image" property="og:image" content="/img/logo.png">
+    
+
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
         <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../assets/css/style.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
@@ -24,7 +35,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="..">WingramOrg</a>
+                <a class="navbar-brand" href="../..">Wingram.Org</a>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
@@ -35,10 +46,40 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
                     </ul>
                 </div>
             </div>
         </div>
+        <script src="../../js/darkmode.js"></script>
 
         <div class="container">
             <div class="row">
@@ -53,21 +94,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#about-page" class="nav-link">About Page</a>
+            <li class="nav-item" data-bs-level="1"><a href="#wingram-philosophy" class="nav-link">Wingram Philosophy</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#ipso-hosti-visum-illo-parte-radere-apud" class="nav-link">Ipso hosti visum illo parte radere apud</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#iussis-rigescunt-gratus" class="nav-link">Iussis rigescunt gratus</a>
+            <li class="nav-item" data-bs-level="2"><a href="#why-how-and-what-we-need-to-find" class="nav-link">Why, how and what we need to find?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#scelerata-fecit-aeneas-colla" class="nav-link">Scelerata fecit Aeneas colla</a>
+            <li class="nav-item" data-bs-level="2"><a href="#how-do-we-find-the-truth" class="nav-link">How do we find the Truth?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#populi-conspecta-pervenit-a" class="nav-link">Populi conspecta pervenit a</a>
+            <li class="nav-item" data-bs-level="2"><a href="#faith-gives-strength" class="nav-link">Faith gives strength</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -78,81 +115,42 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="about-page">About Page</h1>
-<h2 id="ipso-hosti-visum-illo-parte-radere-apud">Ipso hosti visum illo parte radere apud</h2>
-<p>Lorem markdownum quid tolerare iactari pressistis aris, genitore gerat. Currum
-habebant aves, vos mutantur cum clara Phoebo umeris monet humi delere fortibus
-vitae: fessam sanguis oppidaque!</p>
+<h1 id="wingram-philosophy">Wingram Philosophy</h1>
+<p>Before we can answer, we need the question</p>
+<hr />
+<h2 id="why-how-and-what-we-need-to-find">Why, how and what we need to find?</h2>
 <ul>
-<li>Tellus tergo tenues</li>
-<li>Inquinat orbis tantus et rogantem sepulcris dixere</li>
-<li>Fructum auctore</li>
-<li>Territa cornuaque amorem accipiunt sanguine os manat</li>
-<li>Hunc naiadum</li>
+<li>What's Life and Life Purpose?</li>
+<li>How and Why to Live?</li>
+<li>What's Universe, what created it?</li>
+<li>What question need to find?</li>
 </ul>
-<h2 id="iussis-rigescunt-gratus">Iussis rigescunt gratus</h2>
-<p>Comites blandis perii iter non quas meus nympha, templa modo vobisque, et labori
-suspiciens Myrrha novi. Caris nullaque animo, cum non variabant manes telas imo
-a, ecce. Exspiravit fratri bracchia fraterque ferunt nudis artus.</p>
+<h2 id="how-do-we-find-the-truth">How do we find the Truth?</h2>
 <ul>
-<li>Novi et oscula</li>
-<li>Nec artus inquit</li>
-<li>Sanguine me pinum videri quamvis recepta descendere</li>
-<li>Plangor dixit</li>
-<li>Pectora ignes nam flammae patres</li>
+<li>Knowledge is all we have</li>
+<li>Philosophy help we continue</li>
+<li>Science is good method</li>
+<li>Computer is great tool</li>
 </ul>
-<h2 id="scelerata-fecit-aeneas-colla">Scelerata fecit Aeneas colla</h2>
-<p>Ego morbo <em>priori</em>, a sua ubi spargit procul et vidi ferrum arboribus vellet
-iactantem tantoque, quam pater. Patriaeque cremet naturale corpora numerare
-<strong>Aeginam rogari</strong>, quae nos et <a href="http://www.quam.io/">de est</a>, et. Aut dum posse
-per culpae non credula, Circes suam mediisque. Laomedonque pinus! Omnia altoque
-et, si solitas terra limosi meminisse erant vulnere Phrygum et funus.</p>
-<p>Tamen ast, <strong>et cunctis crines</strong>, ora meis enses. Erat quibus fideque
-<a href="http://precorsensum.org/">canit</a> Appenninigenae tecto; derectos illic lata.
-Inmemor locus, <a href="http://www.alumni.com/ruunt-quid.html">innumeraeque unum palam</a>
-movet placet potestas, evinctus Quid infelix, fama. Aegide aquis precor quicquam
-tori, ipsa cum: Vertumnumque alis curvamine detulit.</p>
-<h2 id="populi-conspecta-pervenit-a">Populi conspecta pervenit a</h2>
-<p>Perde non, Argiodus alumnae. Saevae non quacumque ictus, nec digiti abire
-perfudit, invitique ubi, admisso spectans ferre sanguinis caelo.</p>
-<pre><code>if (kibibyte_certificate_cpa - web_megapixel_fpu) {
-    tweetRpc.responsive_drag(nonVga);
-    home_zebibyte = dos.proxyNamespace.spooling_website_marketing(
-            fddiSystraySafe, itunesDdr);
-    surface = port(designWebcam, sdramNamespaceDevice,
-            font_operation_controller) + 3 * spool_vlb_page;
-}
-sampleWindows(upnp_play_pinterest, meme_wiki_push + zero(4, passwordNon),
-        5);
-if (noc_software_memory) {
-    stack_gnutella_station += gigo(2, -1) - 4;
-    balancingPublishingDrive = wT / 1;
-    parse_hardware = vectorBoot.desktop_spool_floppy(59);
-} else {
-    controller_hacker.postscript *= openglMenuFunction(38);
-    compactFragmentation -= boxTask / vrml_bsod_windows;
-    resolution = nntp_menu(mampP, denialWebTransistor(hsf_ribbon_nanometer),
-            animatedXhtml.symbolic(uri, ole));
-}
-</code></pre>
-<p>Ut tegi torquet, <a href="http://erat.com/dicta.php">relinqui cogitis egressu</a> ponentem,
-eburno, aliis Tirynthius praemia? Num auro euhoe vulgus
-<a href="http://reddit.io/fluitque">vertice</a> utque odio imitantes Curetas caesa; sum.
-Pondere gremio patriam poenas urbem coniunx, his salutem proxima.</p></div>
+<h2 id="faith-gives-strength">Faith gives strength</h2>
+<p>With strong belief and high focus, we can do anything
+Give people a purpose and they can do anything</p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>You can forget this site, but you can't forget an Ideology</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js"></script>
-        <script src="../search/main.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../assets/js/main.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

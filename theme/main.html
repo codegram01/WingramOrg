@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    <meta name="title" property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}" />
+    <meta name="url" property="og:url" content="{{ page.canonical_url }}" />
+
+    {% if page.meta.description %}
+    <meta name="description" property="og:description" content="{{page.meta.description}}" />
+    {% endif %}
+    {% if page.meta.image %}
+        <meta name="image" property="og:image" content="{{page.meta.image}}">
+    {% else %}
+        <meta name="image" property="og:image" content="/img/logo.png">
+    {% endif %}
+{% endblock %}
