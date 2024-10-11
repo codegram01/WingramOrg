@@ -7,9 +7,9 @@ image: /img/father.jpg
 
 I'm just one person who wants to make something good for the world
 
----
-
 ![Wingram Father](../img/father.jpg)
+
+---
 
 ## I had a strange dream
 I found myself standing before an old, mysterious man.
