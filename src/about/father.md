@@ -1,6 +1,6 @@
 ---
 description: I'm just one person who wants to make something good for the world
-image: ../img/father.jpg
+image: /img/father.jpg
 ---
 
 # Wingram Father
