@@ -14,3 +14,26 @@
         <meta name="image" property="og:image" content="/img/logo.png">
     {% endif %}
 {% endblock %}
+
+{% block site_name %}
+<a class="navbar-brand" href="/">
+    <img src="/img/logo.png" alt="">
+    {{config.site_name}}
+</a>
+{% endblock %}
+
+
+{% block footer %}
+    {% if page.is_homepage %}
+    <div class="container">
+        <hr>
+        <p>Don't forget bookmark this site.</p>
+        <p>You can forget this site, but you can't forget an Ideology</p>
+    </div>
+    {% else %}
+    <div class="container">
+        <hr>
+        <a href="/">Home</a>
+    </div>
+    {% endif %}
+{% endblock %}
